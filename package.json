@@ -1,0 +1,15 @@
+{
+  "name": "docx-generator",
+  "version": "1.0.0",
+  "description": "用 docx 库程序化生成 Word 文档：自建样式系统 + 表格/徽章/分隔线组件",
+  "main": "gen-docx-v2.js",
+  "scripts": {
+    "gen": "node gen-docx-v2.js",
+    "gen:v1": "node gen-docx.js"
+  },
+  "keywords": ["docx", "word", "document-generation", "typesetting"],
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}
